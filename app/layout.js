@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Ibarra_Real_Nova } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import { Providers } from "./providers";
 import Navbar from "./Navbar";
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
           <div className="container mx-auto max-w-prose mt-5 px-5">
             <Navbar />
             {children}
+            <Analytics />
           </div>
         </Providers>
       </body>
