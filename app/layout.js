@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <body className={IRN.className}>
         <Providers>
-          <div className="container mx-auto max-w-prose mt-5 px-3">
+          <div className="container mx-auto max-w-prose mt-5 px-5">
             <Navbar />
             {children}
           </div>

@@ -30,7 +30,7 @@ function Navbar() {
             </li>
           );
         })}
-        <li className="cursor-pointer">
+        <li className="cursor-pointer ml-auto">
           <ThemeChanger />
         </li>
       </ul>

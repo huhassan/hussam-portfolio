@@ -29,7 +29,7 @@ export default function Home() {
       </section>
       <section className="mt-10">
         <div>
-          <p className="font-bold">Business Skills</p>
+          <p className="font-bold">Skills</p>
           <ul className="flex flex-wrap">
             <li className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
               Project Planning
@@ -49,7 +49,7 @@ export default function Home() {
           </ul>
         </div>
         <div className="mt-5">
-          <p className="font-bold">Technical Skills</p>
+          <p className="font-bold">Technologies I Use</p>
           <ul className="flex flex-wrap">
             <li className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
               JavaScript
@@ -65,6 +65,9 @@ export default function Home() {
             </li>
             <li className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
               Next.js
+            </li>
+            <li className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
+              Linux
             </li>
           </ul>
         </div>
