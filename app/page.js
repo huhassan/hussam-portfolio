@@ -22,7 +22,7 @@ export default function Home() {
           href="/Resume-Hussam-Hassan.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-5 text-center justify-self-center	 outline outline-2 rounded p-2 outline-slate-300 hover:outline-slate-500"
+          className="mt-5 text-center justify-self-center	 outline outline-2 rounded p-2 outline-slate-300 dark:outline-slate-500 hover:outline-slate-500 dark:hover:outline-slate-300"
         >
           <button>Resume</button>
         </a>
@@ -31,41 +31,41 @@ export default function Home() {
         <div>
           <p className="font-bold">Business Skills</p>
           <ul className="flex flex-wrap">
-            <div className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
+            <li className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
               Project Planning
-            </div>
-            <div className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
+            </li>
+            <li className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
               Team Leadership
-            </div>
-            <div className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
+            </li>
+            <li className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
               Budgeting & Resource Allocation
-            </div>
-            <div className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
+            </li>
+            <li className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
               Agile/Scrum Methodologies
-            </div>
-            <div className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
+            </li>
+            <li className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
               Stakeholder Management
-            </div>
+            </li>
           </ul>
         </div>
         <div className="mt-5">
           <p className="font-bold">Technical Skills</p>
           <ul className="flex flex-wrap">
-            <div className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
+            <li className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
               JavaScript
-            </div>
-            <div className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
+            </li>
+            <li className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
               React
-            </div>
-            <div className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
+            </li>
+            <li className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
               MongoDB
-            </div>
-            <div className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
+            </li>
+            <li className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
               Node.js
-            </div>
-            <div className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
+            </li>
+            <li className="mt-2 mr-2 max-w-fit bg-slate-200 dark:bg-slate-800 rounded-full px-3 py-1">
               Next.js
-            </div>
+            </li>
           </ul>
         </div>
       </section>
