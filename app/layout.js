@@ -7,8 +7,9 @@ import Navbar from "./Navbar";
 const IRN = Ibarra_Real_Nova({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Hussam Hassan",
-  description: "Hussam's personal website.",
+  title: "Hussam Hassan | Persona Portfolio Website",
+  description:
+    "I'm Hussam, a skilled Project Manager based in Cairo, with a diverse background that spans industries such as localization and travel. From Project Management to Software Development and Customer Support, I've been fortunate to lead teams to success, and gain extensive experience in various domains.",
 };
 
 export default function RootLayout({ children }) {
