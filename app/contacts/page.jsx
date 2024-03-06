@@ -1,13 +1,13 @@
 import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsLinkedin, BsTwitter, BsGithub } from "react-icons/bs";
+import { BsLinkedin, FaSquareXTwitter, BsGithub } from "react-icons/bs";
 
 function Page() {
   const contactItems = [
     {
       icon: <HiOutlineMail />,
-      label: "email@hussam.info",
-      href: "mailto:email@hussam.info",
+      label: "heyhussam@proton.me",
+      href: "mailto:heyhussam@proton.me",
     },
     {
       icon: <BsLinkedin />,
@@ -17,9 +17,9 @@ function Page() {
       rel: "noopener noreferrer",
     },
     {
-      icon: <BsTwitter />,
-      label: "@HeyHussam",
-      href: "https://twitter.com/HeyHussam",
+      icon: <FaSquareXTwitter />,
+      label: "@heyhussam",
+      href: "https://x.com/heyhussam",
       target: "_blank",
       rel: "noopener noreferrer",
     },
