@@ -1,6 +1,7 @@
 import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsLinkedin, FaSquareXTwitter, BsGithub } from "react-icons/bs";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 function Page() {
   const contactItems = [
